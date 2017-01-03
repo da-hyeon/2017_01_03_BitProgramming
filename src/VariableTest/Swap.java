@@ -24,9 +24,9 @@ public class Swap {
 		if(a1 >= a2 && a1 >= a3){
 			System.out.println("최대값은 " + a1 + "입니다.");
 		} 
-		else if( a2 >= a3 ){
+		else if( a2 >= a3 ){	// a2 > a1 && a3> a1 
 			System.out.println("최대값은 " + a2 + "입니다.");
-		} else {
+		} else {		//a3 > a2 && a3 > a1
 			System.out.println("최대값은 " + a3 + "입니다.");
 		}
 		
